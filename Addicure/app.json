@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Addicure",
+    "slug": "addicure",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.amankhandelwal02.addicure"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a04a8da3-6a1d-4bb1-8108-446924a6c3e8"
+      }
+    },
+    "owner": "amankhandelwal02",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/splash.png",
+          "color": "#ffffff",
+          "mode": "production"
+        }
+      ]
+    ]
+  }
+}
